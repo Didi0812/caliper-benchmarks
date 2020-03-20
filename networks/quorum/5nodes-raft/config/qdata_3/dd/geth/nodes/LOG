@@ -1,0 +1,42 @@
+=============== Mar 20, 2020 (UTC) ===============
+14:07:37.906793 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:07:37.914050 db@open opening
+14:07:37.915649 version@stat F·[] S·0B[] Sc·[]
+14:07:37.922626 db@janitor F·2 G·0
+14:07:37.922661 db@open done T·8.577283ms
+=============== Mar 20, 2020 (UTC) ===============
+14:17:32.341569 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:17:32.341703 version@stat F·[] S·0B[] Sc·[]
+14:17:32.341715 db@open opening
+14:17:32.341777 journal@recovery F·1
+14:17:32.344509 journal@recovery recovering @1
+14:17:32.348393 memdb@flush created L0@2 N·101 S·1KiB "n:_..ver,v69":"version,v1"
+14:17:32.350154 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+14:17:32.362569 db@janitor F·3 G·0
+14:17:32.362605 db@open done T·20.881037ms
+=============== Mar 20, 2020 (UTC) ===============
+14:31:33.468916 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:31:33.469567 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+14:31:33.469582 db@open opening
+14:31:33.469650 journal@recovery F·1
+14:31:33.469806 journal@recovery recovering @3
+14:31:33.477144 memdb@flush created L0@5 N·103 S·1KiB "n:_..ail,v200":"n:\xf8..seq,v103"
+14:31:33.477364 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+14:31:33.488687 db@janitor F·4 G·0
+14:31:33.488720 db@open done T·19.129486ms
+14:31:33.495397 table@compaction L0·2 -> L1·0 S·2KiB Q·206
+14:31:33.501368 table@build created L1@8 N·18 S·664B "n:_..ver,v69":"version,v1"
+14:31:33.501444 version@stat F·[0 1] S·664B[0B 664B] Sc·[0.00 0.00]
+14:31:33.514357 table@compaction committed F-1 S-1KiB Ke·0 D·186 T·18.916668ms
+14:31:33.560960 table@remove removed @5
+14:31:33.561050 table@remove removed @2
+=============== Mar 20, 2020 (UTC) ===============
+14:55:10.017162 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:55:10.019193 version@stat F·[0 1] S·664B[0B 664B] Sc·[0.00 0.00]
+14:55:10.019213 db@open opening
+14:55:10.019280 journal@recovery F·1
+14:55:10.019390 journal@recovery recovering @6
+14:55:10.024266 memdb@flush created L0@9 N·125 S·1KiB "n:_..ail,v326":"n:\xf8..seq,v207"
+14:55:10.024459 version@stat F·[1 1] S·1KiB[1KiB 664B] Sc·[0.25 0.00]
+14:55:10.042128 db@janitor F·4 G·0
+14:55:10.042173 db@open done T·22.945762ms

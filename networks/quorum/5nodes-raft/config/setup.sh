@@ -151,6 +151,7 @@ cat >> genesis.json <<EOF
   "config": {
     "homesteadBlock": 0,
     "byzantiumBlock": 0,
+    "constantinopleBlock": 0,
     "chainId": 10,
     "eip150Block": 0,
     "eip155Block": 0,

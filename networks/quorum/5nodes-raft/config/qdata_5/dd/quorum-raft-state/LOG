@@ -1,0 +1,36 @@
+=============== Mar 20, 2020 (UTC) ===============
+14:07:37.806746 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:07:37.820101 db@open opening
+14:07:37.825344 version@stat F·[] S·0B[] Sc·[]
+14:07:37.832667 db@janitor F·2 G·0
+14:07:37.832701 db@open done T·12.147222ms
+=============== Mar 20, 2020 (UTC) ===============
+14:17:33.009588 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:17:33.010061 version@stat F·[] S·0B[] Sc·[]
+14:17:33.010127 db@open opening
+14:17:33.010252 journal@recovery F·1
+14:17:33.010446 journal@recovery recovering @1
+14:17:33.015144 memdb@flush created L0@2 N·27 S·343B "applied,v27":"applied,v1"
+14:17:33.016127 version@stat F·[1] S·343B[343B] Sc·[0.25]
+14:17:33.034197 db@janitor F·3 G·0
+14:17:33.034337 db@open done T·24.166299ms
+=============== Mar 20, 2020 (UTC) ===============
+14:31:32.028685 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:31:32.031171 version@stat F·[1] S·343B[343B] Sc·[0.25]
+14:31:32.031255 db@open opening
+14:31:32.031363 journal@recovery F·1
+14:31:32.031482 journal@recovery recovering @3
+14:31:32.036629 memdb@flush created L0@5 N·201 S·1KiB "applied,v229":"applied,v29"
+14:31:32.039444 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+14:31:32.059252 db@janitor F·4 G·0
+14:31:32.059283 db@open done T·27.991678ms
+=============== Mar 20, 2020 (UTC) ===============
+14:55:10.359402 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:55:10.360092 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+14:55:10.360109 db@open opening
+14:55:10.360179 journal@recovery F·1
+14:55:10.360283 journal@recovery recovering @6
+14:55:10.365626 memdb@flush created L0@8 N·191 S·1KiB "applied,v421":"applied,v231"
+14:55:10.372951 version@stat F·[3] S·3KiB[3KiB] Sc·[0.75]
+14:55:10.385276 db@janitor F·5 G·0
+14:55:10.385304 db@open done T·25.186538ms

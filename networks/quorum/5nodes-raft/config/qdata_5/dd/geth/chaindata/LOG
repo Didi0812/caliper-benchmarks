@@ -1,0 +1,64 @@
+=============== Mar 20, 2020 (UTC) ===============
+14:06:47.409097 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:06:47.427476 db@open opening
+14:06:47.433275 version@stat F·[] S·0B[] Sc·[]
+14:06:47.443684 db@janitor F·2 G·0
+14:06:47.444661 db@open done T·17.090773ms
+=============== Mar 20, 2020 (UTC) ===============
+14:07:37.687776 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:07:37.689554 version@stat F·[] S·0B[] Sc·[]
+14:07:37.690766 db@open opening
+14:07:37.690898 journal@recovery F·1
+14:07:37.706880 journal@recovery recovering @1
+14:07:37.740432 memdb@flush created L0@2 N·20 S·1KiB "\x10\x17\x1b..\xd1\xfe\x9a,v8":"\xc6\xf8\xf2..'CA,v11"
+14:07:37.760394 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+14:07:37.795442 db@janitor F·3 G·0
+14:07:37.795493 db@open done T·104.678739ms
+=============== Mar 20, 2020 (UTC) ===============
+14:17:32.943857 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:17:32.944336 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+14:17:32.949864 db@open opening
+14:17:32.950069 journal@recovery F·1
+14:17:32.963418 journal@recovery recovering @3
+14:17:32.976784 memdb@flush created L0@5 N·491 S·36KiB "\x00~K..kf\xaf,v151":"\xfeP/..I\xc0\xdb,v222"
+14:17:32.982442 version@stat F·[2] S·37KiB[37KiB] Sc·[0.50]
+14:17:33.002045 db@janitor F·4 G·0
+14:17:33.002124 db@open done T·52.153917ms
+14:17:46.272718 table@compaction L0·2 -> L1·0 S·37KiB Q·814
+14:17:46.283080 table@build created L1@8 N·373 S·35KiB "\x00~K..kf\xaf,v151":"\xfeP/..I\xc0\xdb,v222"
+14:17:46.283385 version@stat F·[0 1] S·35KiB[0B 35KiB] Sc·[0.00 0.00]
+14:17:46.294323 table@compaction committed F-1 S-1KiB Ke·0 D·138 T·21.514704ms
+14:17:46.294447 table@remove removed @5
+14:17:46.294527 table@remove removed @2
+=============== Mar 20, 2020 (UTC) ===============
+14:31:31.835878 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:31:31.840706 version@stat F·[0 1] S·35KiB[0B 35KiB] Sc·[0.00 0.00]
+14:31:31.840751 db@open opening
+14:31:31.840838 journal@recovery F·1
+14:31:31.871263 journal@recovery recovering @6
+14:31:31.923453 memdb@flush created L0@9 N·5086 S·501KiB "\x00\x02\x9d..\xb0Ik,v801":"\xff\xc1\xc6..\xe0@\x94,v3429"
+14:31:31.992216 version@stat F·[1 1] S·537KiB[501KiB 35KiB] Sc·[0.25 0.00]
+14:31:32.012425 db@janitor F·4 G·0
+14:31:32.012546 db@open done T·171.779765ms
+14:31:48.593577 table@compaction L0·1 -> L1·1 S·537KiB Q·6029
+14:31:48.623023 table@build created L1@12 N·4022 S·504KiB "\x00\x02\x9d..\xb0Ik,v801":"\xff\xc1\xc6..\xe0@\x94,v3429"
+14:31:48.623103 version@stat F·[0 1] S·504KiB[0B 504KiB] Sc·[0.00 0.00]
+14:31:48.632207 table@compaction committed F-1 S-32KiB Ke·0 D·1437 T·37.887326ms
+14:31:48.634100 table@remove removed @9
+14:31:48.634248 table@remove removed @8
+=============== Mar 20, 2020 (UTC) ===============
+14:55:10.281294 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:55:10.282008 version@stat F·[0 1] S·504KiB[0B 504KiB] Sc·[0.00 0.00]
+14:55:10.282057 db@open opening
+14:55:10.282149 journal@recovery F·1
+14:55:10.286042 journal@recovery recovering @10
+14:55:10.330261 memdb@flush created L0@13 N·5026 S·496KiB "\x00\x1b\xf8..\xd7ô,v8719":"\xff\xcf\xcc..\x855\xf0,v8666"
+14:55:10.334767 version@stat F·[1 1] S·1000KiB[496KiB 504KiB] Sc·[0.25 0.00]
+14:55:10.349833 db@janitor F·4 G·0
+14:55:10.349872 db@open done T·67.779043ms
+14:55:24.186536 table@compaction L0·1 -> L1·1 S·1000KiB Q·11030
+14:55:24.277445 table@build created L1@16 N·7689 S·977KiB "\x00\x02\x9d..\xb0Ik,v801":"\xff\xcf\xcc..\x855\xf0,v8666"
+14:55:24.277615 version@stat F·[0 1] S·977KiB[0B 977KiB] Sc·[0.00 0.01]
+14:55:24.284848 table@compaction committed F-1 S-23KiB Ke·0 D·1359 T·98.194097ms
+14:55:24.286434 table@remove removed @13
+14:55:24.286781 table@remove removed @12

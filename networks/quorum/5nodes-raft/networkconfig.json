@@ -2,8 +2,8 @@
   "caliper": {
     "blockchain": "quorum",
     "command": {
-      "start": "docker-compose -f config/docker-compose.yml up -d && sleep 50s",
-      "end": "docker-compose -f config/docker-compose.yml down"
+      "start": "docker-compose -f ./config/docker-compose.yml up -d && sleep 52s",
+      "end": "docker-compose -f ./config/docker-compose.yml down"
     }
   },
   "quorum": {
@@ -15,7 +15,7 @@
     "transactionConfirmationBlocks": 2,
     "contracts": {
       "simple": {
-        "path": "src/simple/simple.json"
+        "path": "./simple/simple.json"
       }
     }
   }
