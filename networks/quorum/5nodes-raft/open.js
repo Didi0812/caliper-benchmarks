@@ -82,9 +82,12 @@ function generateWorkload() {
         chaincodeArguments: [acc_id, initMoney.toString()]
       });
     } else {
+      //Quorum
       workload.push({
         verb: 'open',
-        args: [acc_id, initMoney]
+        args: [acc_id, initMoney],
+        isPrivate: contx.contracts['simple'].isPrivate,
+        privateFor: contx.contracts['simple'].privateFor
       });
     }
   }

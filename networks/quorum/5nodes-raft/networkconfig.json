@@ -11,12 +11,16 @@
     "contractDeployerAddress": "0x39bfebd88ae7f3e29bf0b00536f39d8f62c0bea8",
     "contractDeployerAddressPassword": "",
     "fromAddress": "0x39bfebd88ae7f3e29bf0b00536f39d8f62c0bea8",
+    "privateFrom": "gNDY3rlOuKkIo+KGvhdxvw6SarNBgi2Cgv/SyT0mV2Y=",
     "fromAddressPassword": "",
     "transactionConfirmationBlocks": 2,
     "contracts": {
       "simple": {
-        "path": "./simple/simple.json"
+        "path": "./simple/simple.json",
+        "isPrivate": false,
+        "privateFor": ""
       }
     }
   }
 }
+
