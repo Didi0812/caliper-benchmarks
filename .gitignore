@@ -19,3 +19,4 @@ package.json
 src/fabric/samples/fabcar/java
 
 networks/quorum/5nodes-raft/config/qdata_*
+networks/quorum/5nodes-prometheus/config/qdata_*
