@@ -1,0 +1,70 @@
+
+#!/bin/bash
+
+#### Configuration options #############################################
+
+# Host ports
+rpc_start_port=23000
+node_start_port=24000
+raft_start_port=25000
+ws_start_port=26000
+tessera_start_port=27000
+
+# Default port number
+raft_port=50400
+tessera_port=9000
+rlp_port=30303
+rpc_port=8545
+ws_port=8546
+
+# VIP Subnet
+subnet="172.13.0.0/16"
+
+# Total nodes to deploy
+total_nodes=5
+
+# Signer nodes for Clique and IBFT
+signer_nodes=5
+
+# Consensus engine ex. raft, clique, istanbul
+consensus=istanbul
+
+# Block period for Clique and IBFT
+block_period=0
+
+# Docker image name
+image=quorum-raft-ibft
+
+# Service name for docker-compose.yml
+service=n1
+
+# Send some ether for pre-defined accounts
+alloc_ether=true
+
+#Create deterministic accounts for testing purpose
+fixed_accounts=true
+
+node_name_prefix=master
+auto_start_containers=true
+
+########################################################################
+
+[[ "$total_nodes" -lt "$signer_nodes" ]] && total_nodes=$signer_nodes
+
+
+master_enodes=(
+19a13cc35930f6fcb8901342c253722217ddef945f886f40a57f50b0d6ef485221728a545b8b297e1e8396f93dcb07bc4d0a0e2b8fb71da5bda1feab58ba6ef2
+b1dd938f0053c943d7a1b09f72de27e5951e28dd0a8003efb199036c33637adefa30f0fd61f1b4d82b80dadc37d8d399781b5b4b74ec5d21acc11d541e126cae
+5e44423e699889684d25364e82a85d0bd7064a82dc1f00095bd900a29c83b4764346fa22ed2982da58f1f19bbe6d069cd1c7397017bfbd692e296b55c573d116
+a61d5ae8142dd1da7bf0a2107f916a51b398e0fce425e115d744d12d2a3ea5ccbb46be64de9f55743aecc3d6e0ed32a26fa9610e6ad34817344ed12c8303dbf0
+45e2c7247d4b6d1ab248edcd92c6b6c80a0a66b8d9753f6a3815eb53d6b3c5fca9224e31d8406572bb7dc7889038d3a716ccea9b13d393ea5fae26417f9519e0
+)
+
+
+tessera_keys=(
+Ee4PVGik+CxDQh/xCRP+m9sqwywSN5IZmkdR90YBtCw=
+f9wePLOTifSolpRPfC0ex6PXnDZ1UcQDZfOHN7WWzgY=
+s/xeNIUfKp9zu53GnNQyWL8+kFheH8IamzE/USefcQk=
+MxGzb5k2W8tzROq/ScGBzH5kyyXciijondj6aBQdbEw=
+1oK1G1x2Ogvz32nEieJJre+p1MWw3doxSa/gMme5pig=
+)

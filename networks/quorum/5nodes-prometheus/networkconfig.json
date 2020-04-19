@@ -2,7 +2,7 @@
   "caliper": {
     "blockchain": "quorum",
     "command": {
-      "start": "docker-compose -f ./config/docker-compose.yml up -d && sleep 80s",
+      "start": "docker-compose -f ./config/docker-compose.yml up -d && sleep 75s",
       "end": "docker-compose -f ./config/docker-compose.yml down"
     }
   },
